@@ -1,0 +1,495 @@
+body {background-image: url(../Images/fond.jpg);
+    }
+
+a.nav-link:hover{color: darkturquoise !important;
+                transform: scale(1.5);}
+
+div#reseau i{color:darkturquoise;}
+
+header strong {color: aliceblue;
+                margin-left: 1%;
+               }
+
+/**Fin Header**/
+
+main{width: 95%;
+    margin-left:2.3%;
+    margin-top:2% ;
+    }
+
+
+div#CV{background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+
+
+div#bonjour{padding-top:5%;
+            padding: 5%;
+            padding-bottom:9%;
+            color:aliceblue;
+            }
+
+div#bonjour h1{font-size: 100px;}
+
+div#bonjour h2{font-size: 70px;}
+
+div#bonjour h3{font-size: 30px;}
+
+div#img img{width: 870px;
+            padding: 15%;
+            border-radius: 50%;}
+
+div#telecharge a{text-decoration: none;
+        color: aliceblue;
+        background-color:dodgerblue;
+        padding: 7%;
+        }
+
+div#telecharge{width: 50%;
+              margin-top:10%;}
+
+div#telecharge i{margin-right: 5%;
+                color:aliceblue;}
+
+
+
+/**Fin Accueil**/
+
+/**Debut Bloc Compétence**/
+
+main#Comp {display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            }
+div#comp{padding: 2%;
+        width: 50%;}
+
+div#comp i{color:darkturquoise;
+            margin-right: 2%;}
+
+div#comp h1 {font-size: 60px;
+    font-weight: 900;
+    color: whitesmoke;
+    margin-left: 2%;
+    margin-bottom: 7%;
+    padding-top:1% ;
+    display: flex;
+    justify-content: center;
+    }
+
+    div#comp h3 {font-size: 20px;
+        font-weight: 900;
+        color: whitesmoke;
+        margin-left: 5%;
+        margin-top: 0%;
+        display: flex;
+        justify-content: center;
+        }
+               
+div#comp h2{color:white;
+         }
+
+         div#comp{display: flex;
+            flex-direction: column;
+            justify-content: center;}
+    
+    div#compétence{display: flex;
+                    flex-direction: column;
+                    justify-content: center;}
+    
+    
+    div.progress{margin:5%;
+                height:27px;}
+    
+    div.progress h2{height:27px;}
+                
+    div.progress-bar{height:27px;}
+    
+    i{color: darkturquoise;}
+    
+    div#langue img{width: 40%;
+                    margin: 5%}
+    
+
+
+div#langue div.langue img{width:200px;}
+
+div#langue{display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-around;
+            margin-top: 5%;
+            }
+
+/**Animation Compétence**/
+
+
+@keyframes bouge {
+	0% { transform: translateY(0); }
+	100% { transform: translateY(calc(-250px *7))}
+}
+
+.slider{overflow: hidden;
+        height: 650px;
+        }
+
+.slide-track{height: calc(250px *7);
+  }
+
+.slider .slide-track .slide{
+	background-color: rgba(255,255,255, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;}
+
+div.slider img{animation-name:bouge;
+    animation-duration:10s;
+    animation-iteration-count:infinite ;
+  }
+	
+	
+/**Fin Animation Compétence**/
+
+/**Fin Bloc Compétence**/
+
+/**Début Bloc Diplome**/
+
+.accordion{width: 50%;
+            position: relative;
+          left:20%;
+          margin:5%}
+
+
+/**Fin Bloc Diplome**/
+
+/**Debut Bloc Portfolio**/
+
+div#carouselExampleIndicators{transform: rotateX(0deg) !important;}
+
+div#carouselExampleIndicators img{width: 45% !important;
+                              height: 60%;
+                              margin-left: 28%;
+                              }
+                          
+div#carouselExampleIndicators img#form{width: 70% !important;
+                                      margin-left: 15%;
+                                }
+
+div#carouselExampleIndicators img#homa{width:25% !important;
+                                        margin-left:38%;}
+/**Fin Bloc Portfolio**/
+
+/**Debut Bloc Expérience**/
+div#expérience{background-color: #202225;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                padding-top: 2%;
+                padding-bottom: 3%;
+                margin-top: 3%;}
+
+                div#expérience h1.titre{color:whitesmoke;
+                    font-size: 60px;
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;}
+
+div#expérience div#liste_exp h1{color: whitesmoke;
+                            font-size: 40px;
+                            display: flex;
+                            justify-content: center;
+                            }
+
+div#liste_exp{background-color: #343a40;
+                padding:2%;
+                }
+
+div#liste_exp h2{color: whitesmoke;
+                display: flex;
+                justify-content: center;}
+
+div#liste_exp p{color: whitesmoke;
+                margin-left: 5%;}
+
+div#expérience i{color: darkturquoise;
+                margin-right:3%}
+
+div#liste_exp img {width: 3%;}
+
+/**Fin Bloc Expérience**/
+
+/**Debut Bloc Loisir**/
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.pic-ctn {
+  width: 100vw;
+  height: 200px;
+}
+
+@keyframes display {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateY(400px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(400px);
+    opacity: 0;
+  }
+}
+
+.pic-ctn {
+  position: relative;
+  width: 100vw;
+  height: 300px;
+  left:-13%;
+  margin-top: 15vh;
+}
+
+.pic-ctn > img {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 100px);
+  opacity: 0;
+  animation: display 18s infinite;
+}
+
+img:nth-child(2) {
+  animation-delay: 3s;
+}
+img:nth-child(3) {
+  animation-delay: 6s;
+}
+img:nth-child(4) {
+  animation-delay: 9s;
+}
+img:nth-child(5) {
+  animation-delay: 12s;
+}
+img:nth-child(6) {
+  animation-delay: 15s;
+}
+img:nth-child(7){
+  animation-delay:18s;
+}
+
+.pic-ctn_2 > h1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 100px);
+  opacity: 0;
+  color: aliceblue;
+  animation: display 18s infinite;
+  top: 50%;
+  font-size: 80px;
+}
+
+.pic-ctn_2 {
+  position: relative;
+  width: 100vw;
+  height: 300px;
+  margin-top: 15vh;
+  left: -13%;
+}
+
+.pic-conte{display: flex;
+          flex-direction: row;
+          justify-content: center;
+        align-content: center;}
+
+h1:nth-child(2) {
+  animation-delay: 3s;
+}
+h1:nth-child(3) {
+  animation-delay: 6s;
+}
+h1:nth-child(4) {
+  animation-delay: 9s;
+}
+h1:nth-child(5) {
+  animation-delay: 12s;
+}
+h1:nth-child(6) {
+  animation-delay: 15s;
+}
+h1:nth-child(7){
+  animation-delay:18s;
+}
+/** Fin Bloc Loisir**/
+
+/**Debut Bloc Contact**/
+
+div#contact{background-color: #202225;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                padding-top: 2%;
+                padding-bottom: 3%;
+                margin-top: 3%;
+                margin-bottom: 3%;}
+
+div#contact h1{color:whitesmoke;
+                font-size: 60px;
+                width:50%;
+                }
+
+div#form2{background-color:darkslateblue;
+        width: 40%;
+        }
+form{display: flex;
+    flex-direction: column;
+}
+
+form div{display: flex;
+    flex-direction: column;
+        justify-content: space-around;
+        margin: 4%;}
+
+label {color:whitesmoke;
+        margin-bottom: 1%;}
+
+
+div#contact i {color: darkturquoise;
+                margin-right: 20%;}
+
+div#cont h1{display: flex;
+            flex-direction: row;}
+
+/**Fin Bloc Contact**/
+
+/**Debut Mediaquery**/
+
+@media screen and (min-width: 410px) and (max-width:800px) {
+
+  a.nav-link:hover{color: darkturquoise !important;
+    transform: scale(1.5);}
+
+    /**Fin Header**/
+
+    
+
+    div#bonjour h1{font-size: 40px;
+                   margin-left: 15%;}
+
+    div#bonjour h2{font-size: 30px;
+                    margin-left: 15%;}
+
+    div#bonjour h3{font-size: 20px;
+                        margin-left: 15%;}
+
+    div#telecharge{margin-left: 15%;
+                    width: 120%;
+                    margin-top: 30%;}
+
+    div#img img{width: 250px;
+                padding: 0%;
+                margin-bottom:30%;
+                }
+    
+    /**Fin Accueil**/
+    
+    div#port { display: flex;
+              flex-direction:row;
+              flex-wrap: wrap;
+               justify-content: space-around;}
+
+    div#port div#form img {width: 200px;}
+    div#port div#min img {width: 200px;}
+    div#port div#homa img {width: 200px;}
+
+    div#Loisir img {width: 200px;}
+
+    div#liste_exp{width: 80%;
+                    display: flex;
+                    flex-direction: column;
+    }
+
+    div#liste_exp div#exp1 h1{font-size: 23px;}
+    div#liste_exp div#exp1 h2{font-size: 20px;}
+    div#liste_exp div#exp2 h1{font-size: 23px;}
+    div#liste_exp div#exp2 h2{font-size: 20px;}
+    div#liste_exp div#exp3 h1{font-size: 23px;}
+    div#liste_exp div#exp3 h2{font-size: 20px;}
+
+    div#comp h1{font-size: 30px;}
+
+    .slider{opacity: 0;}
+
+    div#diplome h1{font-size: 45px;
+                    width: 70%;
+                    margin-bottom: 5%;}
+
+  div#langue div.langue img{width:200px;}
+
+  div#liste_exp img {width: 7%;
+                      height: 7%;}
+
+                      main#loisir div.pic-conte{display: flex;
+                        flex-direction: column;
+                        position: relative;
+                        left:-10%;
+                        }
+
+                        div.pic-conte img{width: 400px;}
+
+                        main#loisir div.pic-ctn_2 h1{position: relative;
+                                                  top:-0%;}
+
+}
+
+@media screen and (min-width: 801px) and (max-width:1460px) {
+
+  a.nav-link:hover{color: darkturquoise !important;
+    transform: scale(1.5);}
+
+
+  div#bonjour h1{font-size: 40px;
+    margin-left: 15%;}
+
+div#bonjour h2{font-size: 30px;
+     margin-left: 15%;}
+
+div#bonjour h3{font-size: 20px;
+         margin-left: 15%;}
+
+div#telecharge{margin-left: 15%;
+     width: 120%;
+     margin-top: 30%;}
+
+     div#img img{width: 250px;
+      padding: 0%;
+      margin-bottom:30%;
+      }
+      div#liste_exp img {width: 5%;
+        height: 5%;}
+
+  main#loisir div.pic-conte{display: flex;
+              flex-direction: column;
+              position: relative;
+                        left:-10%;
+              }
+}
